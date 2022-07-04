@@ -1,0 +1,433 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 25px;
+    width:auto;
+    max-width: 400px;
+    margin: 0 auto; 
+  }
+
+.ProductPage {
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-content {
+    margin-top: 30px;
+    border: #000000 1px solid;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+    flex-grow: 1;
+    padding: 12px;
+}
+
+
+.GeoDashboard {
+    background-color: white;
+    width: 293px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.GeoDashboard .description-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.GeoDashboard .description-detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+
+.GeoDashboard  a {
+    text-decoration: none;
+}
+
+.HeroSection {
+    width: 232px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #4F4F4F;
+    opacity: 0.8;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.Headline {
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    color: black;
+    font-style: normal;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 232px;
+    height: 30px;
+    line-height: 16p;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    box-shadow: 2px 2px 2px 2px rgb(101, 101, 114);
+    
+}
+
+.Headline:hover {
+    background-color: #4B4B4B;
+    color: white
+}
+
+.ProductDemo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 232px;
+    height: 30px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    margin-bottom: 12px;
+    box-shadow: 2px 2px 2px 2px rgb(101, 101, 114)
+}
+
+.ProductDemo:hover {
+    background-color: #3773CE;
+    color: white;
+}
+
+.GuideBook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    border-radius: 4px;
+    width: 232px;
+    height: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3773CE;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgb(101, 101, 114)
+}
+
+.GuideBook:hover {
+    background-color: #F9F9F9;
+    border-color: #3773CE;
+}
+
+
+.GeoDashboard  .header .list-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.GeoDashboard .main .list-item .description {
+    Font style: Regular
+    Font size: 8px
+    Line height: 14px
+    Line height: 100%
+    Align: Center
+    Vertical align: Top
+}
+
+.main1 {
+    position: absolute;
+    width: 122px;
+    height: 29px;
+    left: 47px;
+    top: 31px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.main2 {
+width: 6px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #232221;
+margin-left: 16px;
+margin-right: 16px;
+
+}
+
+.main3 {
+width: 67px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #353432;
+margin-right: 16px;
+
+}
+
+.main4 {
+    margin-right: 120px;
+width: 73px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #353432;
+}
+
+.main5 {
+    width: 73px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 4px;
+    padding: 3px;
+    margin-left: 480px;
+    
+}
+
+.item1 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 75px;
+color: #000000;
+}
+
+.item2 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+color: #000000;
+
+}
+
+.item3 {
+width: 781px;
+height: 56px;
+left: 74px;
+top: 339px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+margin-top: 30px;
+color: #000000;
+}
+
+.item4 {
+    width: 110px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    color: white;
+    background-color: #000000;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.item5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #232221;    
+    background-color: white;
+    border: #000000 1px solid;
+    margin-left: 24px;
+}
+
+.item6 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #4F4C4A;
+}
+
+
+.itemMap {
+    border: #000000 1px solid;
+    width: 700px;
+    height: 400;
+    margin-bottom: 50px;
+}
+
+.item7 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 64px;
+    margin-bottom: 8x;
+}
+
+.item8 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 6x;
+
+}
+
+.item9 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 8px;
+    }
+
+    .item20 {
+        display: flex;
+        flex-direction: row;
+        color: black;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 68px;
+        }
+
+.item10 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.item11 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 58px;
+    margin-bottom: 6x;
+}
+
+.item12 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+/* Toogle Menu */
+
+#menu-button {
+    width: 32px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#menu-lable {
+    position: relative;
+    display: block;
+    height: 20px;
+    cursor: pointer;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
